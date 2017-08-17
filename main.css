@@ -1,0 +1,63 @@
+
+
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+}
+
+h2{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.form-element{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: -10%;
+    
+}
+
+.form-element input, .form-element select, .form-element textarea{
+    border-radius: 5px; 
+    width: 25%;
+    border-width: thin; 
+}
+
+.form-element input, .form-element select{
+    height: 4%;
+}
+
+.form-element textarea{
+    height: 12%;
+    vertical-align: text-top; 
+}
+
+.form-element label{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+
+#btn{
+    width: 10%;
+    height: 5%;
+    margin-left: 26%;
+    border-radius: 5px;
+    border-width: thin;
+    background-color: crimson;
+}
+
+
+@media screen and (max-width: 562px){
+    #btn{
+        width:50%;
+        margin-left:1px;
+    }
+    .form-element label{
+        font-size: 80%;
+    }
+    .form-element input, .form-element select, .form-element textarea{
+        width:35%;
+    }
+}
+

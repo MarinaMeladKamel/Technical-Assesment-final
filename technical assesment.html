@@ -1,0 +1,79 @@
+﻿<!DOCTYPE>
+<html>
+    <head>
+        <title>Form</title>
+        <link rel="stylesheet" type="text/css"  href="main.css">
+    </head>
+    <body>
+
+    <div id="main" class="center">
+
+      <legend>Personal Info</legend>
+
+       <div id="form-container">
+         <form method="post">
+          <div id="name" class="form-element">
+           <label>Name: </label>
+           <input type="text" name="username" value="" placeholder="Marina Melad">
+        </div>
+
+         <div id="mobile" class="form-element">
+           <label>Mobile: </label>
+           <input type="tel" name="mobile" value="" placeholder="01267045542">
+          </div>
+           <div id="department" class="form-element">
+             <label>Department: </label>
+             <select name="department" placeholder="Choose a department">
+              <option selected>Computer Systems</option>
+              <option>Computer Science</option>
+              <option>Information Systems</option>
+              </select>
+           </div>
+
+            <div class="form-element">
+               <label>University: </label>
+                 <input type="text" value="" name="university" placeholder="Ain Shams University">
+             </div>
+
+             <div class="form-element">
+               <label>Faculty: </label>
+                <input type="text" name="faculty" value="" placeholder="Computer Science">
+             </div>
+                        
+             <div class="form-element">
+               <label>Overall grade: </label>
+               <select name="grade" placeholder=Select your grade>
+                 <option>Excellent</option>
+                 <option selected>Very Good</option>
+                  <option>Good</option>
+                  <option>Fair</option>
+                </select>
+              </div>
+
+              <div class="form-element">
+                <label>Graduation year: </label>
+                 <input type="number" name="grad-year" value="" placeholder="2018">
+               </div>
+
+         <div class="form-element">
+           <label>Previous Experince: </label>
+        <textarea type="text" placeholder="technical skills:
+        CCNA 200-125
+        HTML5,CSS,JAVA,script,boots strap
+        web development" name="expr"></textarea>
+         </div>
+
+         <div class="form-element">
+           <label>CV: </label>
+           <input type="file">
+         </div>
+         <div>
+         <button type="submit" id="btn">Submit</button>
+         </div>
+            </form>
+             <hr>
+                </div>
+            
+        </div>
+    </body>
+</html>
